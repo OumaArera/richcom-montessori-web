@@ -170,11 +170,12 @@ export default function Header() {
             </div>
           ))}
 
-          <NavLink to="/contact" className={navItemClass}>Contact</NavLink>
+          <NavLink to="/contact" onClick={() => setMenuOpen(false)} className={navItemClass}>Contact</NavLink>
 
           <NavLink
             to="/admissions/apply"
             className="block text-center bg-green-600 text-white py-2 rounded-lg"
+            onClick={() => setMenuOpen(false)}
           >
             Apply Now
           </NavLink>
