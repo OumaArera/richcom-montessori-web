@@ -24,10 +24,13 @@ export default function Contact() {
               Phone
             </h3>
             <p className="text-gray-600">
-              +233 XXX XXX XXX
+              +233 243 265 757
             </p>
             <p className="text-gray-600">
-              +233 XXX XXX XXX
+              +233 242 302 717
+            </p>
+            <p className="text-gray-600">
+              +233 591 507 583
             </p>
           </div>
 

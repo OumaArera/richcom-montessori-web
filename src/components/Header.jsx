@@ -48,6 +48,12 @@ export default function Header() {
                 <NavLink to="/about/montessori" className={navItemClass}>
                   Montessori Philosophy
                 </NavLink>
+                <NavLink to="/about/management-board" className={navItemClass}>
+                  Management & Board of Directors
+                </NavLink>
+                <NavLink to="/about/teachers" className={navItemClass}>
+                  Teaching Staff
+                </NavLink>
               </div>
             </div>
 
@@ -127,6 +133,8 @@ export default function Header() {
               { label: "Our Story", to: "/about/story" },
               { label: "Mission & Vision", to: "/about/mission-vision" },
               { label: "Montessori Philosophy", to: "/about/montessori" },
+              { label: "Management & Board of Directors", to: "/about/management-board" },
+              { label: "Teaching Staff", to: "/about/teachers" },
             ]},
             { title: "Academics", key: "academics", links: [
               { label: "Creche", to: "/academics/creche" },

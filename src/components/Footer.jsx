@@ -56,7 +56,7 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>📍 Ghana</li>
-              <li>📞 +233 XXX XXX XXX</li>
+              <li>📞 +233 243 265 757</li>
               <li>✉️ info@richcommontessori.com</li>
               <li>🕒 Mon – Fri: 8:00 AM – 4:00 PM</li>
             </ul>

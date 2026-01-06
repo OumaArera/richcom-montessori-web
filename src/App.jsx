@@ -17,6 +17,8 @@ import Activities from './school-life/Activities';
 import Events from './school-life/Events';
 import Contact from './components/Contact';
 import ApplyNow from './components/ApplyNow';
+import Leadership from './about/Leadership';
+import TeachingStaff from './about/TeachingStaff';
 
 function App() {
 
@@ -42,7 +44,8 @@ function App() {
             <Route path="/school-life/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/admissions/apply" element={<ApplyNow />} />
-            {/* <Route path="/team" element={<Team />} /> */}
+            <Route path="/about/management-board" element={<Leadership />} />
+            <Route path="/about/teachers" element={<TeachingStaff />} />
           </Routes>
         </main>
         <Footer />
