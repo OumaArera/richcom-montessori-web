@@ -19,6 +19,8 @@ import Contact from './components/Contact';
 import ApplyNow from './components/ApplyNow';
 import Leadership from './about/Leadership';
 import TeachingStaff from './about/TeachingStaff';
+import InvoiceForm from './components/invoice/InvoiceForm';
+import RequisitionForm from './components/invoice/RequisitionForm';
 
 function App() {
 
@@ -46,6 +48,8 @@ function App() {
             <Route path="/admissions/apply" element={<ApplyNow />} />
             <Route path="/about/management-board" element={<Leadership />} />
             <Route path="/about/teachers" element={<TeachingStaff />} />
+            <Route path="/richcom/payment-invoice" element={<InvoiceForm />} />
+            <Route path="/richcom/requisition-invoice" element={<RequisitionForm />} />
           </Routes>
         </main>
         <Footer />
